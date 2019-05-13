@@ -1,0 +1,25 @@
+{
+  "name": "chrisf/image-slider-block",
+  "type": "wordpress-plugin",
+  "license": "ISC",
+  "description": "An image slider block for Gutenberg",
+  "homepage": "https://github.com/cs-ferguson/image-slider-block",
+  "authors": [
+    {
+      "name": "Chris Ferguson",
+      "email": "christopher.stanley.ferguson@gmail.com",
+      "homepage": "https://github.com/cs-ferguson"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "gutenberg"
+  ],
+  "support": {
+    "issues": "https://github.com/cs-ferguson/image-slider-block/issues"
+  },
+  "require": {
+    "php": ">=5.5",
+    "composer/installers": "~1.0"
+  }
+}

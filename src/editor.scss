@@ -1,0 +1,45 @@
+@import './common.scss';
+
+$max-slides: 16;
+
+.wp-block { // This may need to be .wp-block in WordPress 5+
+
+  //the editor wrapper
+  &[data-type="chrisf/image-slider-block"]{
+    .image-slider-editor{
+      background: silver;
+
+      >.editor-inner-blocks>.editor-block-list__layout{
+        // display: flex;
+        // flex-direction: row;
+        // align-items: stretch;
+        // justify-content: flex-start;
+        // flex-wrap: nowrap;
+        // overflow: hidden;
+        // overflow-x: auto;
+        // scroll-snap-type: x mandatory;
+
+        >div{
+          // flex-basis: 100%;
+          // flex-shrink: 0;
+          // scroll-snap-align: start;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .wp-block[data-type="chrisf/slide-block"]{
+    >.editor-block-list__block-edit{
+      margin-top: 0;
+      margin-bottom: 0;
+
+      .slide{
+        display: none;
+        min-height: 28rem;
+        padding: 1rem;
+      }
+    }
+  }
+}

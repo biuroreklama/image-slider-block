@@ -1,6 +1,6 @@
 {
   "name": "image-slider-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An image slider block for Gutenberg",
   "main": "src/block.js",
   "scripts": {

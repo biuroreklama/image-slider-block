@@ -1,4 +1,4 @@
-const { InspectorControls, InnerBlocks } = wp.editor;
+const { InspectorControls, InnerBlocks } = wp.blockEditor;
 const { registerBlockType } = wp.blocks;
 const { PanelBody, Button, TextControl, SelectControl, RangeControl } = wp.components;
 const { Fragment, createElement } = wp.element;

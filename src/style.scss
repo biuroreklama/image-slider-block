@@ -63,9 +63,11 @@
 
   input:checked + label{
     opacity: 1;
+    visibility: visible;
   }
 
   input:checked + label + .slide{
     opacity: 1;
+    visibility: hidden;
   }
 }
